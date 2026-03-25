@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Interativa</title>
+</head>
+<body>
+
+    <h1>DOM: Página Interativa com JavaScript!</h1>
+
+    <button id="incrementar" onclick="incrementar()">Incrementar</button>
+    <button id="decrementar" onclick="decrementar()">Decrementar</button>
+    <p id="contador">0</p>
+
+    
+    
+
+    <input type="text" id="caracter" placeholder="Digite algo...">
+    <p id="contadorCaracteres">Caracteres: 0</p>
+
+    <p id="resultado"></p>
+
+   
+
+
+
+    <h3>Escolha o tipo de lista:</h3>
+
+    <select id="tipoLista">
+        <option value="ul">Lista Não Ordenada</option>
+        <option value="ol">Lista Ordenada</option>
+    </select>
+
+    <button onclick="adicionarLista()">Adicionar Lista</button>
+
+    <div id="listas"></div>
+
+    <br><br>
+
+    <button onclick="resetar()">Resetar Tudo</button>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
